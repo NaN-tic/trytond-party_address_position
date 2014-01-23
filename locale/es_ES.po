@@ -1,0 +1,43 @@
+# 
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:party.address,position:"
+msgid "Position"
+msgstr "Cargo"
+
+msgctxt "field:party.address.position,create_date:"
+msgid "Create Date"
+msgstr "Fecha creación"
+
+msgctxt "field:party.address.position,create_uid:"
+msgid "Create User"
+msgstr "Usuario creación"
+
+msgctxt "field:party.address.position,id:"
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:party.address.position,name:"
+msgid "Name"
+msgstr "Nombre"
+
+msgctxt "field:party.address.position,rec_name:"
+msgid "Name"
+msgstr "Nombre"
+
+msgctxt "field:party.address.position,write_date:"
+msgid "Write Date"
+msgstr "Fecha modificación"
+
+msgctxt "field:party.address.position,write_uid:"
+msgid "Write User"
+msgstr "Usuario modificación"
+
+msgctxt "model:party.address.position,name:"
+msgid "Party Address Position"
+msgstr "Cargo de tercero"
+
+msgctxt "view:party.party:"
+msgid "Info"
+msgstr "Información"
