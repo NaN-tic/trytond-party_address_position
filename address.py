@@ -5,7 +5,6 @@ from trytond.model import ModelView, ModelSQL, fields
 from trytond.pool import PoolMeta
 
 __all__ = ['PartyAddressPosition', 'Address']
-__metaclass__ = PoolMeta
 
 
 class PartyAddressPosition(ModelSQL, ModelView):
@@ -15,5 +14,6 @@ class PartyAddressPosition(ModelSQL, ModelView):
 
 
 class Address:
+    __metaclass__ = PoolMeta
     __name__ = 'party.address'
     position = fields.Many2One('party.address.position', 'Position')
