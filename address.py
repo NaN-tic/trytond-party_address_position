@@ -13,7 +13,6 @@ class PartyAddressPosition(ModelSQL, ModelView):
     name = fields.Char('Name', required=True, translate=True)
 
 
-class Address:
-    __metaclass__ = PoolMeta
+class Address(metaclass=PoolMeta):
     __name__ = 'party.address'
     position = fields.Many2One('party.address.position', 'Position')
